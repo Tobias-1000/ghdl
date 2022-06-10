@@ -470,6 +470,21 @@ if ((-not $StopCompiling) -and $Cyclone)
 	}
 }
 
+# compile cyclone10lp library
+if ((-not $StopCompiling) -and $Cyclone)
+{	$Library = "cyclone10lp"
+	$Files = @(
+		"cyclone10lp_atoms.vhd",
+		"cyclone10lp_components.vhd"
+	)
+	$SourceFiles = $Files | % { "$SourceDirectory\$_" }
+
+	if (Test-Path $SourceFiles[0])
+	{	$ErrorCount += Start-PackageCompilation $GHDLBinary $Analyze_Parameters $DestinationDirectory $Library $VHDLVersion $SourceFiles $SuppressWarnings $HaltOnError -Verbose:$EnableVerbose -Debug:$EnableDebug
+		$StopCompiling = $HaltOnError -and ($ErrorCount -ne 0)
+	}
+}
+
 # compile stratixiv library
 if ((-not $StopCompiling) -and $Stratix)
 {	$Library = "stratixiv"

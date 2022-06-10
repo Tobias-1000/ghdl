@@ -548,6 +548,19 @@ if [[ -f "$SourceDirectory/${Files[0]}" ]]; then
 	test $COMPILE_CYCLONE -eq 1 && Libraries+=("$StructName")
 fi
 
+# Cyclone 10 LP library
+StructName="CYCLONE_10_LP"
+Files=(
+	cyclone10lp_atoms.vhd
+	cyclone10lp_components.vhd
+)
+if [[ -f "$SourceDirectory/${Files[0]}" ]]; then
+	test $DEBUG -eq 1 && echo -e "    ${ANSI_DARK_GRAY}Found device 'Cyclone 10 LP'.${ANSI_NOCOLOR}"
+	CreateLibraryStruct $StructName "cyclone10lp" "." $VHDLVersion "${Files[@]}"
+
+	test $COMPILE_CYCLONE -eq 1 && Libraries+=("$StructName")
+fi
+
 # Stratix IV library
 StructName="STRATIX_IV"
 Files=(

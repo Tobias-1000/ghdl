@@ -561,6 +561,40 @@ if [[ -f "$SourceDirectory/${Files[0]}" ]]; then
 	test $COMPILE_CYCLONE -eq 1 && Libraries+=("$StructName")
 fi
 
+# Cyclone 10 GX library
+StructName="CYCLONE_10GX"
+Files=(
+	cyclone10gx_atoms.vhd
+	cyclone10gx_components.vhd
+)
+if [[ $SKIP_LARGE_FILES -eq 0 ]]; then
+	Files+=(
+		cyclone10gx_hssi_components.vhd
+		cyclone10gx_hssi_atoms.vhd
+	)
+fi
+if [[ -f "$SourceDirectory/${Files[0]}" ]]; then
+	test $DEBUG -eq 1 && echo -e "    ${ANSI_DARK_GRAY}Found device 'Cyclone 10 GX'.${ANSI_NOCOLOR}"
+	CreateLibraryStruct $StructName "cyclone10gx" "." $VHDLVersion "${Files[@]}"
+
+	test $COMPILE_CYCLONE -eq 1 && Libraries+=("$StructName")
+fi
+
+# Cyclone 10 GX(PCIe) library
+if [[ $SKIP_LARGE_FILES -eq 0 ]]; then
+	StructName="CYCLONE_10GX_PCIe"
+	Files=(
+		cyclone10gx_hip_components.vhd
+		cyclone10gx_hip_atoms.vhd
+	)
+	if [[ -f "$SourceDirectory/${Files[0]}" ]]; then
+		test $DEBUG -eq 1 && echo -e "    ${ANSI_DARK_GRAY}Found device 'Cyclone 10 GX (PCIe)'.${ANSI_NOCOLOR}"
+		CreateLibraryStruct $StructName "cyclone10gx_pcie_hip" "." $VHDLVersion "${Files[@]}"
+
+		test $COMPILE_CYCLONE -eq 1 && Libraries+=("$StructName")
+	fi
+fi
+
 # Stratix IV library
 StructName="STRATIX_IV"
 Files=(

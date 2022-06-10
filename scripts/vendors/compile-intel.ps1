@@ -485,6 +485,38 @@ if ((-not $StopCompiling) -and $Cyclone)
 	}
 }
 
+# compile cyclone10gx library
+if ((-not $StopCompiling) -and $Cyclone)
+{	$Library = "cyclone10gx"
+	$Files = @(
+		"cyclone10gx_atoms.vhd",
+		"cyclone10gx_components.vhd",
+		"cyclone10gx_hssi_components.vhd",
+		"cyclone10gx_hssi_atoms.vhd"
+	)
+	$SourceFiles = $Files | % { "$SourceDirectory\$_" }
+
+	if (Test-Path $SourceFiles[0])
+	{	$ErrorCount += Start-PackageCompilation $GHDLBinary $Analyze_Parameters $DestinationDirectory $Library $VHDLVersion $SourceFiles $SuppressWarnings $HaltOnError -Verbose:$EnableVerbose -Debug:$EnableDebug
+		$StopCompiling = $HaltOnError -and ($ErrorCount -ne 0)
+	}
+}
+
+# compile cyclone10gx_hip library
+if ((-not $StopCompiling) -and $Cyclone)
+{	$Library = "cyclone10gx_hip"
+	$Files = @(
+		"cyclone10gx_hip_components.vhd",
+		"cyclone10gx_hip_atoms.vhd"
+	)
+	$SourceFiles = $Files | % { "$SourceDirectory\$_" }
+
+	if (Test-Path $SourceFiles[0])
+	{	$ErrorCount += Start-PackageCompilation $GHDLBinary $Analyze_Parameters $DestinationDirectory $Library $VHDLVersion $SourceFiles $SuppressWarnings $HaltOnError -Verbose:$EnableVerbose -Debug:$EnableDebug
+		$StopCompiling = $HaltOnError -and ($ErrorCount -ne 0)
+	}
+}
+
 # compile stratixiv library
 if ((-not $StopCompiling) -and $Stratix)
 {	$Library = "stratixiv"

@@ -1,0 +1,65 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="396pt" height="64pt" viewBox="0.00 0.00 396.00 64.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 60)">
+<ns0:title>inheritanceaa8d2f1715</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>AssociationItem</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Association.html#pyVHDLModel.Association.AssociationItem" ns1:title="AssociationItem" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="206,-19 111,-19 111,0 206,0 206,-19" />
+<ns0:text text-anchor="middle" x="158.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AssociationItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>ParameterAssociationItem</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Association.html#pyVHDLModel.Association.ParameterAssociationItem" ns1:title="ParameterAssociationItem" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="388,-37 242,-37 242,-18 388,-18 388,-37" />
+<ns0:text text-anchor="middle" x="315" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ParameterAssociationItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>AssociationItem-&gt;ParameterAssociationItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M206.27,-14.95C215.89,-16.07 226.26,-17.28 236.63,-18.49" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="236.55,-20.24 241.72,-19.08 236.95,-16.76 236.55,-20.24" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="75,-19 0,-19 0,0 75,0 75,-19" />
+<ns0:text text-anchor="middle" x="37.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>ModelEntity-&gt;AssociationItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M75.17,-9.5C84.8,-9.5 95.36,-9.5 105.62,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="105.63,-11.25 110.63,-9.5 105.63,-7.75 105.63,-11.25" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="192.5,-56 124.5,-56 124.5,-37 192.5,-37 192.5,-56" />
+<ns0:text text-anchor="middle" x="158.5" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>DOMMixin-&gt;ParameterAssociationItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M192.64,-42.42C205.63,-40.83 221.11,-38.92 236.61,-37.02" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="237.11,-38.72 241.86,-36.37 236.68,-35.25 237.11,-38.72" />
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>ParameterAssociationItem-&gt;ParameterAssociationItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M290.96,-37.08C279.26,-45.73 287.27,-55 315,-55 338.83,-55 348.1,-48.16 342.81,-40.74" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="343.85,-39.31 339.04,-37.08 341.41,-41.82 343.85,-39.31" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

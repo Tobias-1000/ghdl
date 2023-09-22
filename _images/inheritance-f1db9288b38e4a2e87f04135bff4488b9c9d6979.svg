@@ -1,0 +1,80 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="576pt" height="60pt" viewBox="0.00 0.00 576.00 60.14">
+<ns0:g id="graph0" class="graph" transform="scale(1.06 1.06) rotate(0) translate(4 60)">
+<ns0:title>inheritancea93cf76d15</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="383,-56 315,-56 315,-37 383,-37 383,-56" />
+<ns0:text text-anchor="middle" x="349" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>GenericPackageInterfaceItem</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Interface.html#pyVHDLModel.Interface.GenericPackageInterfaceItem" ns1:title="GenericPackageInterfaceItem" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="605,-37 445,-37 445,-18 605,-18 605,-37" />
+<ns0:text text-anchor="middle" x="525" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GenericPackageInterfaceItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>DOMMixin-&gt;GenericPackageInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M383.14,-42.88C399.32,-41.11 419.6,-38.9 439.68,-36.71" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="440,-38.43 444.78,-36.15 439.62,-34.95 440,-38.43" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>DocumentedEntityMixin</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.DocumentedEntityMixin" ns1:title="A ``DocumentedEntityMixin`` is a mixin class for all VHDL entities that can have an associated documentation." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="134,-19 0,-19 0,0 134,0 134,-19" />
+<ns0:text text-anchor="middle" x="67" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DocumentedEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>InterfaceItem</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:title="An ``InterfaceItem`` is a base-class for all mixin-classes for all interface items.">
+<ns0:polygon fill="white" stroke="#1e90ff" points="253,-19 170,-19 170,0 253,0 253,-19" />
+<ns0:text text-anchor="middle" x="211.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">InterfaceItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>DocumentedEntityMixin-&gt;InterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M134.24,-9.5C144.42,-9.5 154.74,-9.5 164.36,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="164.62,-11.25 169.62,-9.5 164.62,-7.75 164.62,-11.25" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>GenericInterfaceItem</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:title="A ``GenericInterfaceItem`` is a mixin class for all generic interface items.">
+<ns0:polygon fill="white" stroke="#1e90ff" points="409,-19 289,-19 289,0 409,0 409,-19" />
+<ns0:text text-anchor="middle" x="349" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GenericInterfaceItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>GenericInterfaceItem-&gt;GenericPackageInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M409.39,-15.64C419.21,-16.66 429.55,-17.73 439.83,-18.79" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="439.72,-20.54 444.87,-19.31 440.08,-17.06 439.72,-20.54" />
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>InterfaceItem-&gt;GenericInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M253.15,-9.5C262.8,-9.5 273.33,-9.5 283.74,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="283.84,-11.25 288.84,-9.5 283.84,-7.75 283.84,-11.25" />
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>GenericPackageInterfaceItem-&gt;GenericPackageInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M497.87,-37.08C484.68,-45.73 493.72,-55 525,-55 552.37,-55 562.72,-47.91 556.03,-40.34" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="557.09,-38.94 552.13,-37.08 554.85,-41.63 557.09,-38.94" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

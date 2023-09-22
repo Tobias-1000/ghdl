@@ -1,0 +1,143 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="576pt" height="94pt" viewBox="0.00 0.00 576.00 94.29">
+<ns0:g id="graph0" class="graph" transform="scale(1.07 1.07) rotate(0) translate(4 97)">
+<ns0:title>inheritancee320da2d7f</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="386,-93 318,-93 318,-74 386,-74 386,-93" />
+<ns0:text text-anchor="middle" x="352" y="-81" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>GenericFunctionInterfaceItem</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Interface.html#pyVHDLModel.Interface.GenericFunctionInterfaceItem" ns1:title="GenericFunctionInterfaceItem" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="609,-56 448,-56 448,-37 609,-37 609,-56" />
+<ns0:text text-anchor="middle" x="528.5" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GenericFunctionInterfaceItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>DOMMixin-&gt;GenericFunctionInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M386.23,-76.45C412.03,-70.98 448.22,-63.31 477.51,-57.1" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="477.99,-58.79 482.52,-56.04 477.27,-55.36 477.99,-58.79" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>DocumentedEntityMixin</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.DocumentedEntityMixin" ns1:title="A ``DocumentedEntityMixin`` is a mixin class for all VHDL entities that can have an associated documentation." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="134,-19 0,-19 0,0 134,0 134,-19" />
+<ns0:text text-anchor="middle" x="67" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DocumentedEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>SubProgramm</ns0:title>
+<ns0:polygon fill="white" stroke="#1e90ff" points="256,-56 170,-56 170,-37 256,-37 256,-56" />
+<ns0:text text-anchor="middle" x="213" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SubProgramm</ns0:text>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>DocumentedEntityMixin-&gt;SubProgramm</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M105.08,-19.03C124.83,-24.1 149.21,-30.37 169.69,-35.63" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="169.26,-37.33 174.54,-36.88 170.13,-33.94 169.26,-37.33" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>InterfaceItem</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:title="An ``InterfaceItem`` is a base-class for all mixin-classes for all interface items.">
+<ns0:polygon fill="white" stroke="#1e90ff" points="254.5,-19 171.5,-19 171.5,0 254.5,0 254.5,-19" />
+<ns0:text text-anchor="middle" x="213" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">InterfaceItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>DocumentedEntityMixin-&gt;InterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M134.1,-9.5C144.93,-9.5 155.94,-9.5 166.14,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="166.39,-11.25 171.39,-9.5 166.39,-7.75 166.39,-11.25" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>Function</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Subprogram.html#pyVHDLModel.Subprogram.Function" ns1:title="Function" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="381,-56 323,-56 323,-37 381,-37 381,-56" />
+<ns0:text text-anchor="middle" x="352" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Function</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>Function-&gt;GenericFunctionInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M381.04,-46.5C397.96,-46.5 420.52,-46.5 442.86,-46.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="442.92,-48.25 447.92,-46.5 442.92,-44.75 442.92,-48.25" />
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>SubProgramm-&gt;Function</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M256.22,-46.5C276.06,-46.5 299.36,-46.5 317.89,-46.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="317.98,-48.25 322.98,-46.5 317.98,-44.75 317.98,-48.25" />
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>GenericFunctionInterfaceItem-&gt;GenericFunctionInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M501.37,-56.08C488.18,-64.73 497.22,-74 528.5,-74 555.87,-74 566.22,-66.91 559.53,-59.34" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="560.59,-57.94 555.63,-56.08 558.35,-60.63 560.59,-57.94" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>GenericInterfaceItem</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:title="A ``GenericInterfaceItem`` is a mixin class for all generic interface items.">
+<ns0:polygon fill="white" stroke="#1e90ff" points="412,-19 292,-19 292,0 412,0 412,-19" />
+<ns0:text text-anchor="middle" x="352" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GenericInterfaceItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>GenericInterfaceItem-&gt;GenericFunctionInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M397.94,-19.03C422.27,-24.19 452.39,-30.57 477.47,-35.89" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="477.16,-37.61 482.41,-36.94 477.88,-34.19 477.16,-37.61" />
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>InterfaceItem-&gt;GenericInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M254.73,-9.5C264.86,-9.5 275.95,-9.5 286.9,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="286.91,-11.25 291.91,-9.5 286.91,-7.75 286.91,-11.25" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="104.5,-93 29.5,-93 29.5,-74 104.5,-74 104.5,-93" />
+<ns0:text text-anchor="middle" x="67" y="-81" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>ModelEntity-&gt;SubProgramm</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M104.71,-74.07C124.61,-68.95 149.3,-62.61 169.97,-57.3" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="170.45,-58.98 174.86,-56.04 169.58,-55.59 170.45,-58.98" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>NamedEntityMixin</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.NamedEntityMixin" ns1:title="A ``NamedEntityMixin`` is a mixin class for all VHDL entities that have identifiers." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="120.5,-56 13.5,-56 13.5,-37 120.5,-37 120.5,-56" />
+<ns0:text text-anchor="middle" x="67" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NamedEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>NamedEntityMixin-&gt;SubProgramm</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M120.8,-46.5C135.1,-46.5 150.49,-46.5 164.48,-46.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="164.56,-48.25 169.56,-46.5 164.56,-44.75 164.56,-48.25" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

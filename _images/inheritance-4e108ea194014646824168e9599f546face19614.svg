@@ -1,0 +1,110 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="576pt" height="69pt" viewBox="0.00 0.00 576.00 69.15">
+<ns0:g id="graph0" class="graph" transform="scale(1.19 1.19) rotate(0) translate(4 78)">
+<ns0:title>inheritance263175ec90</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>ConcurrentStatement</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Concurrent.html#pyVHDLModel.Concurrent.ConcurrentStatement" ns1:title="A ``ConcurrentStatement`` is a base-class for all concurrent statements." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="371,-37 250,-37 250,-18 371,-18 371,-37" />
+<ns0:text text-anchor="middle" x="310.5" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ConcurrentStatement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>GenerateStatement</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Concurrent.html#pyVHDLModel.Concurrent.GenerateStatement" ns1:title="A ``GenerateStatement`` is a base-class for all generate statements." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="520,-37 407,-37 407,-18 520,-18 520,-37" />
+<ns0:text text-anchor="middle" x="463.5" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">GenerateStatement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>ConcurrentStatement-&gt;GenerateStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M371.18,-27.5C381.15,-27.5 391.5,-27.5 401.5,-27.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="401.7,-29.25 406.7,-27.5 401.7,-25.75 401.7,-29.25" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>Statement</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Common.html#pyVHDLModel.Common.Statement" ns1:title="A ``Statement`` is a base-class for all statements." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="214,-37 146,-37 146,-18 214,-18 214,-37" />
+<ns0:text text-anchor="middle" x="180" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Statement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>Statement-&gt;ConcurrentStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M214.09,-27.5C223.49,-27.5 234.05,-27.5 244.64,-27.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="244.84,-29.25 249.84,-27.5 244.84,-25.75 244.84,-29.25" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="497.5,-74 429.5,-74 429.5,-55 497.5,-55 497.5,-74" />
+<ns0:text text-anchor="middle" x="463.5" y="-62" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>IfGenerateStatement</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Concurrent.html#pyVHDLModel.Concurrent.IfGenerateStatement" ns1:title="IfGenerateStatement" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="675,-55 556,-55 556,-36 675,-36 675,-55" />
+<ns0:text text-anchor="middle" x="615.5" y="-43" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">IfGenerateStatement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>DOMMixin-&gt;IfGenerateStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M497.79,-60.28C513.41,-58.3 532.57,-55.88 550.82,-53.57" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="551.2,-55.28 555.94,-52.92 550.76,-51.81 551.2,-55.28" />
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>GenerateStatement-&gt;IfGenerateStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M520.35,-34.2C530.21,-35.39 540.55,-36.63 550.61,-37.83" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="550.67,-39.6 555.84,-38.46 551.08,-36.13 550.67,-39.6" />
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>IfGenerateStatement-&gt;IfGenerateStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M592.07,-55.08C580.68,-63.73 588.48,-73 615.5,-73 638.72,-73 647.75,-66.16 642.6,-58.74" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="643.7,-57.37 638.93,-55.08 641.23,-59.85 643.7,-57.37" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>LabeledEntityMixin</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.LabeledEntityMixin" ns1:title="A ``LabeledEntityMixin`` is a mixin class for all VHDL entities that can have labels." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="110,-56 0,-56 0,-37 110,-37 110,-56" />
+<ns0:text text-anchor="middle" x="55" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LabeledEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>LabeledEntityMixin-&gt;Statement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M110.31,-38.11C120.61,-36.52 131.19,-34.89 140.86,-33.39" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="141.15,-35.12 145.83,-32.62 140.62,-31.66 141.15,-35.12" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="92.5,-19 17.5,-19 17.5,0 92.5,0 92.5,-19" />
+<ns0:text text-anchor="middle" x="55" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>ModelEntity-&gt;Statement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M92.57,-14.85C107.71,-17.07 125.28,-19.64 140.61,-21.88" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="140.51,-23.64 145.72,-22.63 141.02,-20.17 140.51,-23.64" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

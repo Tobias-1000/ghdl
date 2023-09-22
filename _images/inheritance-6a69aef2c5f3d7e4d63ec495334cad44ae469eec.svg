@@ -1,0 +1,29 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="159pt" height="27pt" viewBox="0.00 0.00 159.00 27.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 23)">
+<ns0:title>inheritancea6c194cd25</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>Iterator</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../pyGHDL/pyGHDL.libghdl.vhdl.lists.html#pyGHDL.libghdl.vhdl.lists.Iterator" ns1:title="Iterator" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="151,-19 97,-19 97,0 151,0 151,-19" />
+<ns0:text text-anchor="middle" x="124" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Iterator</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>Structure</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:title="Structure base class">
+<ns0:polygon fill="white" stroke="#1e90ff" points="61,-19 0,-19 0,0 61,0 61,-19" />
+<ns0:text text-anchor="middle" x="30.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Structure</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>Structure-&gt;Iterator</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M61.21,-9.5C70.98,-9.5 81.88,-9.5 91.76,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="91.83,-11.25 96.83,-9.5 91.83,-7.75 91.83,-11.25" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

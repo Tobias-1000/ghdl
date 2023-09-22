@@ -1,0 +1,95 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="476pt" height="101pt" viewBox="0.00 0.00 476.00 101.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 97)">
+<ns0:title>inheritance0d7d04db9b</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="279,-93 211,-93 211,-74 279,-74 279,-93" />
+<ns0:text text-anchor="middle" x="245" y="-81" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>EntityInstantiationSymbol</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Symbol.html#pyVHDLModel.Symbol.EntityInstantiationSymbol" ns1:title="An entity reference in a direct entity instantiation." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="468,-56 325,-56 325,-37 468,-37 468,-56" />
+<ns0:text text-anchor="middle" x="396.5" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">EntityInstantiationSymbol</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>DOMMixin-&gt;EntityInstantiationSymbol</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M279.18,-75.29C300.62,-69.98 328.76,-63.02 351.99,-57.27" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="352.43,-58.96 356.86,-56.06 351.59,-55.56 352.43,-58.96" />
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>EntityInstantiationSymbol-&gt;EntityInstantiationSymbol</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M373.38,-56.08C362.13,-64.73 369.84,-74 396.5,-74 419.41,-74 428.32,-67.16 423.24,-59.74" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="424.38,-58.41 419.62,-56.08 421.89,-60.87 424.38,-58.41" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>SelectedName</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Name.html#pyVHDLModel.Name.SelectedName" ns1:title="A *selected name* is a name made from multiple words separated by a dot (``.``)." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="289,-56 201,-56 201,-37 289,-37 289,-56" />
+<ns0:text text-anchor="middle" x="245" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SelectedName</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>SelectedName-&gt;EntityInstantiationSymbol</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M289.24,-46.5C298.8,-46.5 309.2,-46.5 319.63,-46.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="319.75,-48.25 324.75,-46.5 319.75,-44.75 319.75,-48.25" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>Symbol</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Symbol.html#pyVHDLModel.Symbol.Symbol" ns1:title="Symbol" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="272,-19 218,-19 218,0 272,0 272,-19" />
+<ns0:text text-anchor="middle" x="245" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Symbol</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>Symbol-&gt;EntityInstantiationSymbol</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M272.04,-15.94C294,-21.38 325.9,-29.27 351.77,-35.68" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="351.58,-37.43 356.85,-36.94 352.42,-34.04 351.58,-37.43" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="75,-56 0,-56 0,-37 75,-37 75,-56" />
+<ns0:text text-anchor="middle" x="37.5" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>Name</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Name.html#pyVHDLModel.Name.Name" ns1:title="``Name`` is the base-class for all *names* in the VHDL language model." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="165,-56 111,-56 111,-37 165,-37 165,-56" />
+<ns0:text text-anchor="middle" x="138" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Name</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>ModelEntity-&gt;Name</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M75.18,-46.5C85.15,-46.5 95.85,-46.5 105.51,-46.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="105.75,-48.25 110.75,-46.5 105.75,-44.75 105.75,-48.25" />
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>Name-&gt;SelectedName</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M165.23,-46.5C174.52,-46.5 185.29,-46.5 195.83,-46.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="195.97,-48.25 200.97,-46.5 195.97,-44.75 195.97,-48.25" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

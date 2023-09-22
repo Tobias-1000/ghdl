@@ -1,0 +1,65 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="325pt" height="64pt" viewBox="0.00 0.00 325.00 64.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 60)">
+<ns0:title>inheritance8bbfa73c9d</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="179,-56 111,-56 111,-37 179,-37 179,-56" />
+<ns0:text text-anchor="middle" x="145" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>ParenthesisName</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Name.html#pyVHDLModel.Name.ParenthesisName" ns1:title="ParenthesisName" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="317,-37 215,-37 215,-18 317,-18 317,-37" />
+<ns0:text text-anchor="middle" x="266" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ParenthesisName</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>DOMMixin-&gt;ParenthesisName</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M179.15,-41.21C188.6,-39.7 199.17,-38.01 209.58,-36.35" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="210,-38.05 214.66,-35.54 209.45,-34.6 210,-38.05" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="75,-19 0,-19 0,0 75,0 75,-19" />
+<ns0:text text-anchor="middle" x="37.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>Name</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Name.html#pyVHDLModel.Name.Name" ns1:title="``Name`` is the base-class for all *names* in the VHDL language model." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="172,-19 118,-19 118,0 172,0 172,-19" />
+<ns0:text text-anchor="middle" x="145" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Name</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>ModelEntity-&gt;Name</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M75.1,-9.5C87.28,-9.5 100.73,-9.5 112.49,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="112.77,-11.25 117.77,-9.5 112.77,-7.75 112.77,-11.25" />
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>Name-&gt;ParenthesisName</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M172.12,-13.45C183.23,-15.13 196.64,-17.16 209.77,-19.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="209.77,-20.92 214.98,-19.93 210.3,-17.46 209.77,-20.92" />
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>ParenthesisName-&gt;ParenthesisName</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M247.5,-37.08C238.51,-45.73 244.67,-55 266,-55 284,-55 291.2,-48.4 287.6,-41.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="288.92,-39.99 284.5,-37.08 286.14,-42.12 288.92,-39.99" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

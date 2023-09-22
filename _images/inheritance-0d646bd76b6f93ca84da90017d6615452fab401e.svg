@@ -1,0 +1,155 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="576pt" height="251pt" viewBox="0.00 0.00 576.00 251.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 247)">
+<ns0:title>inheritance76ac8fae4b</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>BlockStatementMixin</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:title="A ``BlockStatement`` is a mixin-class for all block statements.">
+<ns0:polygon fill="white" stroke="#1e90ff" points="378,-243 256,-243 256,-224 378,-224 378,-243" />
+<ns0:text text-anchor="middle" x="317" y="-231" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">BlockStatementMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ConcurrentBlockStatement</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Concurrent.html#pyVHDLModel.Concurrent.ConcurrentBlockStatement" ns1:title="ConcurrentBlockStatement" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="568,-130 420,-130 420,-111 568,-111 568,-130" />
+<ns0:text text-anchor="middle" x="494" y="-118" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ConcurrentBlockStatement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>BlockStatementMixin-&gt;ConcurrentBlockStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M363.78,-223.92C370.75,-221.64 377.72,-218.86 384,-215.5 424.46,-193.84 462.72,-154.67 481.29,-134.04" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="482.71,-135.07 484.73,-130.18 480.1,-132.74 482.71,-135.07" />
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>ConcurrentBlockStatement-&gt;ConcurrentBlockStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M466.87,-130.08C453.68,-138.73 462.72,-148 494,-148 521.37,-148 531.72,-140.91 525.03,-133.34" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="526.09,-131.94 521.13,-130.08 523.85,-134.63 526.09,-131.94" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="351,-206 283,-206 283,-187 351,-187 351,-206" />
+<ns0:text text-anchor="middle" x="317" y="-194" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>DOMMixin-&gt;ConcurrentBlockStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M346.17,-186.93C357.96,-182.75 371.74,-177.64 384,-172.5 414.15,-159.86 448,-143.33 469.87,-132.34" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="470.67,-133.89 474.35,-130.08 469.09,-130.77 470.67,-133.89" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>ConcurrentStatement</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Concurrent.html#pyVHDLModel.Concurrent.ConcurrentStatement" ns1:title="A ``ConcurrentStatement`` is a base-class for all concurrent statements." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="377.5,-130 256.5,-130 256.5,-111 377.5,-111 377.5,-130" />
+<ns0:text text-anchor="middle" x="317" y="-118" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ConcurrentStatement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>ConcurrentStatement-&gt;ConcurrentBlockStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M377.74,-120.5C389.61,-120.5 402.24,-120.5 414.62,-120.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="414.91,-122.25 419.91,-120.5 414.91,-118.75 414.91,-122.25" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>LabeledEntityMixin</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.LabeledEntityMixin" ns1:title="A ``LabeledEntityMixin`` is a mixin class for all VHDL entities that can have labels." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="110,-167 0,-167 0,-148 110,-148 110,-167" />
+<ns0:text text-anchor="middle" x="55" y="-155" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LabeledEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>LabeledEntityMixin-&gt;ConcurrentBlockStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M110.14,-156.48C175.31,-154.8 287.96,-150.47 384,-139.5 402.49,-137.39 422.6,-134.15 440.45,-130.95" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="440.82,-132.66 445.42,-130.05 440.19,-129.22 440.82,-132.66" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>Statement</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Common.html#pyVHDLModel.Common.Statement" ns1:title="A ``Statement`` is a base-class for all statements." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="214,-130 146,-130 146,-111 214,-111 214,-130" />
+<ns0:text text-anchor="middle" x="180" y="-118" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Statement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>LabeledEntityMixin-&gt;Statement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M87.68,-147.97C104.33,-142.96 124.84,-136.79 142.2,-131.57" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="142.72,-133.24 147,-130.12 141.71,-129.89 142.72,-133.24" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>ConcurrentDeclarations</ns0:title>
+<ns0:polygon fill="white" stroke="#1e90ff" points="382.5,-93 251.5,-93 251.5,-74 382.5,-74 382.5,-93" />
+<ns0:text text-anchor="middle" x="317" y="-81" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ConcurrentDeclarations</ns0:text>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>ConcurrentDeclarations-&gt;ConcurrentBlockStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M363.07,-93.03C387.47,-98.19 417.68,-104.57 442.82,-109.89" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="442.53,-111.62 447.78,-110.94 443.25,-108.19 442.53,-111.62" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>ConcurrentStatements</ns0:title>
+<ns0:polygon fill="white" stroke="#1e90ff" points="380,-56 254,-56 254,-37 380,-37 380,-56" />
+<ns0:text text-anchor="middle" x="317" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ConcurrentStatements</ns0:text>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>ConcurrentStatements-&gt;ConcurrentBlockStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M358.22,-56.03C366.84,-58.47 375.81,-61.32 384,-64.5 416.03,-76.94 451.03,-95.97 472.5,-108.33" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="471.67,-109.87 476.88,-110.86 473.43,-106.84 471.67,-109.87" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>DocumentedEntityMixin</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.DocumentedEntityMixin" ns1:title="A ``DocumentedEntityMixin`` is a mixin class for all VHDL entities that can have an associated documentation." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="384,-19 250,-19 250,0 384,0 384,-19" />
+<ns0:text text-anchor="middle" x="317" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DocumentedEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>DocumentedEntityMixin-&gt;ConcurrentBlockStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M363.4,-19.03C370.5,-21.32 377.6,-24.11 384,-27.5 424,-48.64 462.18,-86.69 480.94,-106.94" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="479.76,-108.24 484.42,-110.75 482.34,-105.88 479.76,-108.24" />
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>Statement-&gt;ConcurrentStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M214.02,-120.5C225.33,-120.5 238.39,-120.5 251.32,-120.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="251.45,-122.25 256.45,-120.5 251.45,-118.75 251.45,-122.25" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="92.5,-130 17.5,-130 17.5,-111 92.5,-111 92.5,-130" />
+<ns0:text text-anchor="middle" x="55" y="-118" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>ModelEntity-&gt;Statement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M92.57,-120.5C107.71,-120.5 125.28,-120.5 140.61,-120.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="140.72,-122.25 145.72,-120.5 140.72,-118.75 140.72,-122.25" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

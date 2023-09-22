@@ -1,0 +1,80 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="458pt" height="64pt" viewBox="0.00 0.00 458.00 64.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 60)">
+<ns0:title>inheritance48fa5ae9e9</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>Allocation</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Expression.html#pyVHDLModel.Expression.Allocation" ns1:title="Allocation" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="307.5,-19 242.5,-19 242.5,0 307.5,0 307.5,-19" />
+<ns0:text text-anchor="middle" x="275" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Allocation</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>SubtypeAllocation</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Expression.html#pyVHDLModel.Expression.SubtypeAllocation" ns1:title="SubtypeAllocation" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="450,-37 345,-37 345,-18 450,-18 450,-37" />
+<ns0:text text-anchor="middle" x="397.5" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SubtypeAllocation</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>Allocation-&gt;SubtypeAllocation</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M307.66,-14.23C317.46,-15.69 328.56,-17.35 339.53,-18.99" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="339.35,-20.73 344.55,-19.74 339.86,-17.27 339.35,-20.73" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>BaseExpression</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Expression.html#pyVHDLModel.Expression.BaseExpression" ns1:title="A ``BaseExpression`` is a base-class for all expressions." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="205,-19 111,-19 111,0 205,0 205,-19" />
+<ns0:text text-anchor="middle" x="158" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">BaseExpression</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>BaseExpression-&gt;Allocation</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M205.11,-9.5C215.75,-9.5 226.94,-9.5 237.13,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="237.36,-11.25 242.36,-9.5 237.36,-7.75 237.36,-11.25" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="75,-19 0,-19 0,0 75,0 75,-19" />
+<ns0:text text-anchor="middle" x="37.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>ModelEntity-&gt;BaseExpression</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M75.02,-9.5C84.72,-9.5 95.38,-9.5 105.71,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="105.75,-11.25 110.75,-9.5 105.75,-7.75 105.75,-11.25" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="309,-56 241,-56 241,-37 309,-37 309,-56" />
+<ns0:text text-anchor="middle" x="275" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>DOMMixin-&gt;SubtypeAllocation</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M309.25,-41.26C318.71,-39.77 329.28,-38.1 339.72,-36.45" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="340.16,-38.15 344.83,-35.65 339.62,-34.7 340.16,-38.15" />
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>SubtypeAllocation-&gt;SubtypeAllocation</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M378.7,-37.08C369.55,-45.73 375.82,-55 397.5,-55 415.8,-55 423.12,-48.4 419.46,-41.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="420.75,-39.96 416.3,-37.08 417.99,-42.1 420.75,-39.96" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

@@ -1,0 +1,176 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="576pt" height="122pt" viewBox="0.00 0.00 576.00 121.91">
+<ns0:g id="graph0" class="graph" transform="scale(1.13 1.13) rotate(0) translate(4 134)">
+<ns0:title>inheritance245c447150</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="459,-130 391,-130 391,-111 459,-111 459,-130" />
+<ns0:text text-anchor="middle" x="425" y="-118" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>PortSignalInterfaceItem</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Interface.html#pyVHDLModel.Interface.PortSignalInterfaceItem" ns1:title="PortSignalInterfaceItem" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="644,-93 512,-93 512,-74 644,-74 644,-93" />
+<ns0:text text-anchor="middle" x="578" y="-81" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">PortSignalInterfaceItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>DOMMixin-&gt;PortSignalInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M459.14,-112.38C480.86,-107.06 509.5,-100.04 533.1,-94.26" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="533.62,-95.93 538.06,-93.04 532.79,-92.53 533.62,-95.93" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>DocumentedEntityMixin</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.DocumentedEntityMixin" ns1:title="A ``DocumentedEntityMixin`` is a mixin class for all VHDL entities that can have an associated documentation." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="140.5,-120 6.5,-120 6.5,-101 140.5,-101 140.5,-120" />
+<ns0:text text-anchor="middle" x="73.5" y="-108" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DocumentedEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>InterfaceItem</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:title="An ``InterfaceItem`` is a base-class for all mixin-classes for all interface items.">
+<ns0:polygon fill="white" stroke="#1e90ff" points="302,-130 219,-130 219,-111 302,-111 302,-130" />
+<ns0:text text-anchor="middle" x="260.5" y="-118" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">InterfaceItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>DocumentedEntityMixin-&gt;InterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M140.51,-114.07C164.71,-115.38 191.57,-116.83 213.63,-118.02" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="213.75,-119.78 218.84,-118.3 213.94,-116.28 213.75,-119.78" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>Obj</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Object.html#pyVHDLModel.Object.Obj" ns1:title="Obj" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="287.5,-56 233.5,-56 233.5,-37 287.5,-37 287.5,-56" />
+<ns0:text text-anchor="middle" x="260.5" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Obj</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>DocumentedEntityMixin-&gt;Obj</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M102.32,-100.93C115.93,-96.05 132.47,-89.82 147,-83.5 163.41,-76.37 166.22,-71.69 183,-65.5 197.52,-60.14 214.14,-55.81 228.18,-52.64" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="228.72,-54.31 233.22,-51.53 227.96,-50.9 228.72,-54.31" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>PortInterfaceItem</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:title="A ``PortInterfaceItem`` is a mixin class for all port interface items.">
+<ns0:polygon fill="white" stroke="#1e90ff" points="476,-93 374,-93 374,-74 476,-74 476,-93" />
+<ns0:text text-anchor="middle" x="425" y="-81" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">PortInterfaceItem</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>InterfaceItem-&gt;PortInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M302.09,-111.26C324.91,-106.06 353.49,-99.55 377.24,-94.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="377.75,-95.83 382.23,-93.01 376.97,-92.41 377.75,-95.83" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>InterfaceItemWithMode</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:title="An ``InterfaceItemWithMode`` is a mixin-class to provide a ``Mode`` to interface items.">
+<ns0:polygon fill="white" stroke="#1e90ff" points="326.5,-93 194.5,-93 194.5,-74 326.5,-74 326.5,-93" />
+<ns0:text text-anchor="middle" x="260.5" y="-81" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">InterfaceItemWithMode</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>InterfaceItemWithMode-&gt;PortInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M326.66,-83.5C340.53,-83.5 355.06,-83.5 368.53,-83.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="368.84,-85.25 373.84,-83.5 368.84,-81.75 368.84,-85.25" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="111,-74 36,-74 36,-55 111,-55 111,-74" />
+<ns0:text text-anchor="middle" x="73.5" y="-62" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>ModelEntity-&gt;Obj</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M111.05,-60.94C145.33,-57.61 196.04,-52.67 228.43,-49.52" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="228.65,-51.26 233.46,-49.03 228.32,-47.78 228.65,-51.26" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>MultipleNamedEntityMixin</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.MultipleNamedEntityMixin" ns1:title="A ``MultipleNamedEntityMixin`` is a mixin class for all VHDL entities that declare multiple instances at once by" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="147,-37 0,-37 0,-18 147,-18 147,-37" />
+<ns0:text text-anchor="middle" x="73.5" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">MultipleNamedEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>MultipleNamedEntityMixin-&gt;Obj</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M147.09,-34.95C175.2,-37.84 205.89,-40.99 228.09,-43.27" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="228.11,-45.04 233.26,-43.81 228.47,-41.55 228.11,-45.04" />
+</ns0:g>
+
+<ns0:g id="node10" class="node">
+<ns0:title>Signal</ns0:title>
+<ns0:g id="a_node10"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Object.html#pyVHDLModel.Object.Signal" ns1:title="Signal" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="452,-56 398,-56 398,-37 452,-37 452,-56" />
+<ns0:text text-anchor="middle" x="425" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Signal</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge11" class="edge">
+<ns0:title>Obj-&gt;Signal</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M287.61,-46.5C316.27,-46.5 362.28,-46.5 392.82,-46.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="392.96,-48.25 397.96,-46.5 392.96,-44.75 392.96,-48.25" />
+</ns0:g>
+
+<ns0:g id="edge10" class="edge">
+<ns0:title>PortInterfaceItem-&gt;PortSignalInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M476.28,-83.5C486.09,-83.5 496.53,-83.5 506.85,-83.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="506.9,-85.25 511.9,-83.5 506.9,-81.75 506.9,-85.25" />
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>PortSignalInterfaceItem-&gt;PortSignalInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M554.57,-93.08C543.18,-101.73 550.98,-111 578,-111 601.22,-111 610.25,-104.16 605.1,-96.74" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="606.2,-95.37 601.43,-93.08 603.73,-97.85 606.2,-95.37" />
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>Signal-&gt;PortSignalInterfaceItem</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M452.3,-52.94C474.48,-58.38 506.7,-66.27 532.83,-72.68" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="532.69,-74.45 537.97,-73.94 533.53,-71.05 532.69,-74.45" />
+</ns0:g>
+
+<ns0:g id="node11" class="node">
+<ns0:title>WithDefaultExpressionMixin</ns0:title>
+<ns0:g id="a_node11"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Object.html#pyVHDLModel.Object.WithDefaultExpressionMixin" ns1:title="A ``WithDefaultExpression`` is a mixin class for all objects declarations accepting default expressions." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="338,-19 183,-19 183,0 338,0 338,-19" />
+<ns0:text text-anchor="middle" x="260.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">WithDefaultExpressionMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge12" class="edge">
+<ns0:title>WithDefaultExpressionMixin-&gt;Signal</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M303.35,-19.03C331.21,-25.37 367.22,-33.57 392.62,-39.36" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="392.29,-41.08 397.56,-40.48 393.07,-37.66 392.29,-41.08" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

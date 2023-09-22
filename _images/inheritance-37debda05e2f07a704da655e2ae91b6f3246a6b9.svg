@@ -1,0 +1,140 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="576pt" height="59pt" viewBox="0.00 0.00 576.00 58.60">
+<ns0:g id="graph0" class="graph" transform="scale(1.4 1.4) rotate(0) translate(4 78)">
+<ns0:title>inheritance39d81afff0</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>Assignment</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:title="An ``Assignment`` is a base-class for all assignment statements.">
+<ns0:polygon fill="white" stroke="#1e90ff" points="220,-74 146,-74 146,-55 220,-55 220,-74" />
+<ns0:text text-anchor="middle" x="183" y="-62" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Assignment</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>SignalAssignment</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:title="An ``SignalAssignment`` is a base-class for all signal assignment statements.">
+<ns0:polygon fill="white" stroke="#1e90ff" points="368.5,-74 264.5,-74 264.5,-55 368.5,-55 368.5,-74" />
+<ns0:text text-anchor="middle" x="316.5" y="-62" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SignalAssignment</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>Assignment-&gt;SignalAssignment</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M220.28,-64.5C232.23,-64.5 245.81,-64.5 258.9,-64.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="259.08,-66.25 264.08,-64.5 259.08,-62.75 259.08,-66.25" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ConcurrentSignalAssignment</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Concurrent.html#pyVHDLModel.Concurrent.ConcurrentSignalAssignment" ns1:title="ConcurrentSignalAssignment" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="571,-56 413,-56 413,-37 571,-37 571,-56" />
+<ns0:text text-anchor="middle" x="492" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ConcurrentSignalAssignment</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>ConcurrentSimpleSignalAssignment</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Concurrent.html#pyVHDLModel.Concurrent.ConcurrentSimpleSignalAssignment" ns1:title="ConcurrentSimpleSignalAssignment" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="798,-37 607,-37 607,-18 798,-18 798,-37" />
+<ns0:text text-anchor="middle" x="702.5" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ConcurrentSimpleSignalAssignment</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>ConcurrentSignalAssignment-&gt;ConcurrentSimpleSignalAssignment</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M571.23,-39.37C581.16,-38.47 591.43,-37.53 601.64,-36.6" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="601.82,-38.34 606.64,-36.14 601.51,-34.85 601.82,-38.34" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>ConcurrentStatement</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Concurrent.html#pyVHDLModel.Concurrent.ConcurrentStatement" ns1:title="A ``ConcurrentStatement`` is a base-class for all concurrent statements." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="377,-37 256,-37 256,-18 377,-18 377,-37" />
+<ns0:text text-anchor="middle" x="316.5" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ConcurrentStatement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>ConcurrentStatement-&gt;ConcurrentSignalAssignment</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M377.21,-34.04C387.06,-35.12 397.44,-36.25 407.75,-37.38" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="407.64,-39.13 412.8,-37.94 408.02,-35.65 407.64,-39.13" />
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>SignalAssignment-&gt;ConcurrentSignalAssignment</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M368.62,-59.2C380.88,-57.92 394.3,-56.53 407.61,-55.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="408.11,-56.86 412.9,-54.6 407.75,-53.38 408.11,-56.86" />
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>ConcurrentSimpleSignalAssignment-&gt;ConcurrentSimpleSignalAssignment</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M670.13,-37.08C654.39,-45.73 665.18,-55 702.5,-55 735.74,-55 747.94,-47.65 739.08,-39.93" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="739.99,-38.43 734.87,-37.08 738.03,-41.33 739.99,-38.43" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="526,-19 458,-19 458,0 526,0 526,-19" />
+<ns0:text text-anchor="middle" x="492" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>DOMMixin-&gt;ConcurrentSimpleSignalAssignment</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M526.04,-12.35C546.68,-14.13 574.47,-16.53 601.83,-18.9" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="601.8,-20.65 606.94,-19.34 602.1,-17.16 601.8,-20.65" />
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>Statement</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Common.html#pyVHDLModel.Common.Statement" ns1:title="A ``Statement`` is a base-class for all statements." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="217,-37 149,-37 149,-18 217,-18 217,-37" />
+<ns0:text text-anchor="middle" x="183" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Statement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>Statement-&gt;ConcurrentStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M217.18,-27.5C227.5,-27.5 239.25,-27.5 250.95,-27.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="250.96,-29.25 255.96,-27.5 250.96,-25.75 250.96,-29.25" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>LabeledEntityMixin</ns0:title>
+<ns0:g id="a_node8"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.LabeledEntityMixin" ns1:title="A ``LabeledEntityMixin`` is a mixin class for all VHDL entities that can have labels." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="110,-56 0,-56 0,-37 110,-37 110,-56" />
+<ns0:text text-anchor="middle" x="55" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LabeledEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>LabeledEntityMixin-&gt;Statement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M110.17,-38.33C121.52,-36.62 133.26,-34.85 143.87,-33.25" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="144.3,-34.95 148.99,-32.48 143.78,-31.49 144.3,-34.95" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node9"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="92.5,-19 17.5,-19 17.5,0 92.5,0 92.5,-19" />
+<ns0:text text-anchor="middle" x="55" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>ModelEntity-&gt;Statement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M92.78,-14.75C108.71,-17.03 127.35,-19.69 143.46,-21.99" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="143.63,-23.79 148.83,-22.76 144.12,-20.32 143.63,-23.79" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

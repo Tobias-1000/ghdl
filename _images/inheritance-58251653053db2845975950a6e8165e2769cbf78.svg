@@ -1,0 +1,95 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="514pt" height="101pt" viewBox="0.00 0.00 514.00 101.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 97)">
+<ns0:title>inheritance1de42c24c8</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>AllName</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Name.html#pyVHDLModel.Name.AllName" ns1:title="The *all name* represents the reserved word ``all`` used in names." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="264.5,-19 205.5,-19 205.5,0 264.5,0 264.5,-19" />
+<ns0:text text-anchor="middle" x="235" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AllName</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>AllPackageMembersReferenceSymbol</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Symbol.html#pyVHDLModel.Symbol.AllPackageMembersReferenceSymbol" ns1:title="A package reference in a use clause." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="506,-56 305,-56 305,-37 506,-37 506,-56" />
+<ns0:text text-anchor="middle" x="405.5" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AllPackageMembersReferenceSymbol</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>AllName-&gt;AllPackageMembersReferenceSymbol</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M264.58,-15.78C289.61,-21.27 326.51,-29.37 356.13,-35.88" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="355.93,-37.63 361.19,-36.99 356.68,-34.21 355.93,-37.63" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>Name</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Name.html#pyVHDLModel.Name.Name" ns1:title="``Name`` is the base-class for all *names* in the VHDL language model." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="165,-19 111,-19 111,0 165,0 165,-19" />
+<ns0:text text-anchor="middle" x="138" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Name</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>Name-&gt;AllName</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M165.21,-9.5C175.97,-9.5 188.58,-9.5 200.03,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="200.21,-11.25 205.21,-9.5 200.21,-7.75 200.21,-11.25" />
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>AllPackageMembersReferenceSymbol-&gt;AllPackageMembersReferenceSymbol</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M379.3,-56.08C366.55,-64.73 375.29,-74 405.5,-74 431.47,-74 441.57,-67.16 435.81,-59.74" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="436.6,-58.1 431.7,-56.08 434.27,-60.72 436.6,-58.1" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="269,-93 201,-93 201,-74 269,-74 269,-93" />
+<ns0:text text-anchor="middle" x="235" y="-81" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>DOMMixin-&gt;AllPackageMembersReferenceSymbol</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M269.29,-76.19C294.03,-70.76 328.16,-63.26 355.94,-57.16" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="356.54,-58.82 361.05,-56.04 355.79,-55.4 356.54,-58.82" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>Symbol</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Symbol.html#pyVHDLModel.Symbol.Symbol" ns1:title="Symbol" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="262,-56 208,-56 208,-37 262,-37 262,-56" />
+<ns0:text text-anchor="middle" x="235" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Symbol</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>Symbol-&gt;AllPackageMembersReferenceSymbol</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M262.33,-46.5C272.96,-46.5 285.98,-46.5 299.78,-46.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="299.9,-48.25 304.9,-46.5 299.9,-44.75 299.9,-48.25" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="75,-19 0,-19 0,0 75,0 75,-19" />
+<ns0:text text-anchor="middle" x="37.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>ModelEntity-&gt;Name</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M75.18,-9.5C85.15,-9.5 95.85,-9.5 105.51,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="105.75,-11.25 110.75,-9.5 105.75,-7.75 105.75,-11.25" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

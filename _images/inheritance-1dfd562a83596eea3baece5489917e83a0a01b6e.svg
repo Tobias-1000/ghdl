@@ -1,0 +1,80 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="237pt" height="138pt" viewBox="0.00 0.00 237.00 138.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 134)">
+<ns0:title>inheritance2935b438b8</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>Attribute</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Declaration.html#pyVHDLModel.Declaration.Attribute" ns1:title="Attribute" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="229,-74 170,-74 170,-55 229,-55 229,-74" />
+<ns0:text text-anchor="middle" x="199.5" y="-62" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Attribute</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>Attribute-&gt;Attribute</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M179.15,-74.08C169.26,-82.73 176.04,-92 199.5,-92 219.3,-92 227.22,-85.4 223.26,-78.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="224.4,-76.78 219.85,-74.08 221.72,-79.04 224.4,-76.78" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="101,-130 33,-130 33,-111 101,-111 101,-130" />
+<ns0:text text-anchor="middle" x="67" y="-118" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>DOMMixin-&gt;Attribute</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M101.14,-113.3C111.84,-110.5 123.6,-106.89 134,-102.5 150.42,-95.57 167.76,-85.16 180.32,-76.98" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="181.51,-78.3 184.72,-74.08 179.59,-75.37 181.51,-78.3" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="104.5,-93 29.5,-93 29.5,-74 104.5,-74 104.5,-93" />
+<ns0:text text-anchor="middle" x="67" y="-81" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>ModelEntity-&gt;Attribute</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M104.7,-78.16C123.58,-75.41 146.43,-72.08 164.86,-69.4" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="165.23,-71.11 169.93,-68.66 164.73,-67.65 165.23,-71.11" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>NamedEntityMixin</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.NamedEntityMixin" ns1:title="A ``NamedEntityMixin`` is a mixin class for all VHDL entities that have identifiers." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="120.5,-56 13.5,-56 13.5,-37 120.5,-37 120.5,-56" />
+<ns0:text text-anchor="middle" x="67" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">NamedEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>NamedEntityMixin-&gt;Attribute</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M120.7,-53.77C135.57,-55.82 151.33,-57.99 164.76,-59.85" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="164.78,-61.62 169.97,-60.56 165.26,-58.15 164.78,-61.62" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>DocumentedEntityMixin</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.DocumentedEntityMixin" ns1:title="A ``DocumentedEntityMixin`` is a mixin class for all VHDL entities that can have an associated documentation." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="134,-19 0,-19 0,0 134,0 134,-19" />
+<ns0:text text-anchor="middle" x="67" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DocumentedEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>DocumentedEntityMixin-&gt;Attribute</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M106.9,-19.1C115.93,-21.76 125.41,-24.92 134,-28.5 149.81,-35.09 166.69,-44.6 179.21,-52.2" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="178.44,-53.78 183.62,-54.9 180.27,-50.79 178.44,-53.78" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

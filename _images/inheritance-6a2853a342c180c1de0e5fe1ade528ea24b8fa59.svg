@@ -1,0 +1,65 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="306pt" height="64pt" viewBox="0.00 0.00 306.00 64.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 60)">
+<ns0:title>inheritancec3d93ba094</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="179,-56 111,-56 111,-37 179,-37 179,-56" />
+<ns0:text text-anchor="middle" x="145" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>LibraryClause</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.DesignUnit.html#pyVHDLModel.DesignUnit.LibraryClause" ns1:title="LibraryClause" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="298,-37 215,-37 215,-18 298,-18 298,-37" />
+<ns0:text text-anchor="middle" x="256.5" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LibraryClause</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>DOMMixin-&gt;LibraryClause</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M179.15,-40.75C188.78,-39.08 199.47,-37.22 209.73,-35.44" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="210.1,-37.15 214.72,-34.58 209.5,-33.71 210.1,-37.15" />
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>LibraryClause-&gt;LibraryClause</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M239.55,-37.08C231.3,-45.73 236.95,-55 256.5,-55 272.69,-55 279.35,-48.65 276.48,-41.55" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="277.71,-40.24 273.45,-37.08 274.81,-42.2 277.71,-40.24" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>Reference</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.DesignUnit.html#pyVHDLModel.DesignUnit.Reference" ns1:title="Reference" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="178,-19 112,-19 112,0 178,0 178,-19" />
+<ns0:text text-anchor="middle" x="145" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Reference</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>Reference-&gt;LibraryClause</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M178.26,-14.8C188.13,-16.43 199.17,-18.24 209.76,-19.98" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="209.69,-21.74 214.91,-20.83 210.26,-18.29 209.69,-21.74" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="75,-19 0,-19 0,0 75,0 75,-19" />
+<ns0:text text-anchor="middle" x="37.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>ModelEntity-&gt;Reference</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M75.1,-9.5C85.24,-9.5 96.25,-9.5 106.44,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="106.69,-11.25 111.69,-9.5 106.69,-7.75 106.69,-11.25" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

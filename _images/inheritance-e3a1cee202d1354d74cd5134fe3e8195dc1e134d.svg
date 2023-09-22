@@ -1,0 +1,65 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="408pt" height="64pt" viewBox="0.00 0.00 408.00 64.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 60)">
+<ns0:title>inheritance87a2f76ab0</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>AggregateElement</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Expression.html#pyVHDLModel.Expression.AggregateElement" ns1:title="A ``AggregateElement`` is a base-class for all aggregate elements." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="218,-19 111,-19 111,0 218,0 218,-19" />
+<ns0:text text-anchor="middle" x="164.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">AggregateElement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>IndexedAggregateElement</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Expression.html#pyVHDLModel.Expression.IndexedAggregateElement" ns1:title="IndexedAggregateElement" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="400,-37 254,-37 254,-18 400,-18 400,-37" />
+<ns0:text text-anchor="middle" x="327" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">IndexedAggregateElement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>AggregateElement-&gt;IndexedAggregateElement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M218.05,-15.39C227.87,-16.5 238.33,-17.67 248.71,-18.83" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="248.64,-20.58 253.8,-19.4 249.03,-17.11 248.64,-20.58" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="75,-19 0,-19 0,0 75,0 75,-19" />
+<ns0:text text-anchor="middle" x="37.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>ModelEntity-&gt;AggregateElement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M75.33,-9.5C84.86,-9.5 95.35,-9.5 105.68,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="105.73,-11.25 110.73,-9.5 105.73,-7.75 105.73,-11.25" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="198.5,-56 130.5,-56 130.5,-37 198.5,-37 198.5,-56" />
+<ns0:text text-anchor="middle" x="164.5" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>DOMMixin-&gt;IndexedAggregateElement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M198.76,-42.56C213.23,-40.85 230.86,-38.76 248.33,-36.69" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="248.98,-38.38 253.74,-36.05 248.57,-34.9 248.98,-38.38" />
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>IndexedAggregateElement-&gt;IndexedAggregateElement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M302.03,-37.08C289.88,-45.73 298.21,-55 327,-55 351.74,-55 361.37,-48.16 355.88,-40.74" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="356.82,-39.22 351.97,-37.08 354.42,-41.78 356.82,-39.22" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

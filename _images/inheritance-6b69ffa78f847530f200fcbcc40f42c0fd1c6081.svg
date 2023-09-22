@@ -1,0 +1,65 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="298pt" height="64pt" viewBox="0.00 0.00 298.00 64.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 60)">
+<ns0:title>inheritance8fa8460949</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="179,-56 111,-56 111,-37 179,-37 179,-56" />
+<ns0:text text-anchor="middle" x="145" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>SlicedName</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Name.html#pyVHDLModel.Name.SlicedName" ns1:title="SlicedName" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="290,-37 215,-37 215,-18 290,-18 290,-37" />
+<ns0:text text-anchor="middle" x="252.5" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SlicedName</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>DOMMixin-&gt;SlicedName</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M179.09,-40.54C188.85,-38.78 199.67,-36.84 209.89,-34.99" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="210.25,-36.71 214.86,-34.1 209.63,-33.26 210.25,-36.71" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="75,-19 0,-19 0,0 75,0 75,-19" />
+<ns0:text text-anchor="middle" x="37.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>Name</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Name.html#pyVHDLModel.Name.Name" ns1:title="``Name`` is the base-class for all *names* in the VHDL language model." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="172,-19 118,-19 118,0 172,0 172,-19" />
+<ns0:text text-anchor="middle" x="145" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Name</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>ModelEntity-&gt;Name</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M75.1,-9.5C87.28,-9.5 100.73,-9.5 112.49,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="112.77,-11.25 117.77,-9.5 112.77,-7.75 112.77,-11.25" />
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>Name-&gt;SlicedName</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M172.08,-13.95C183.5,-15.9 197.18,-18.23 209.95,-20.41" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="209.75,-22.15 214.98,-21.27 210.34,-18.7 209.75,-22.15" />
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>SlicedName-&gt;SlicedName</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M236.16,-37.08C228.21,-45.73 233.66,-55 252.5,-55 268.1,-55 274.52,-48.65 271.75,-41.55" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="273.03,-40.32 268.84,-37.08 270.1,-42.23 273.03,-40.32" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

@@ -1,0 +1,80 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="452pt" height="64pt" viewBox="0.00 0.00 452.00 64.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 60)">
+<ns0:title>inheritance1c02f2e68a</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>BaseChoice</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.BaseChoice" ns1:title="A ``Choice`` is a base-class for all choices." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="185,-19 111,-19 111,0 185,0 185,-19" />
+<ns0:text text-anchor="middle" x="148" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">BaseChoice</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>SequentialChoice</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Sequential.html#pyVHDLModel.Sequential.SequentialChoice" ns1:title="A ``SequentialChoice`` is a base-class for all sequential choices (in case statements)." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="322,-19 221,-19 221,0 322,0 322,-19" />
+<ns0:text text-anchor="middle" x="271.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SequentialChoice</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>BaseChoice-&gt;SequentialChoice</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M185.13,-9.5C194.74,-9.5 205.35,-9.5 215.73,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="215.8,-11.25 220.8,-9.5 215.8,-7.75 215.8,-11.25" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="75,-19 0,-19 0,0 75,0 75,-19" />
+<ns0:text text-anchor="middle" x="37.5" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>ModelEntity-&gt;BaseChoice</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M75.23,-9.5C84.97,-9.5 95.55,-9.5 105.52,-9.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="105.67,-11.25 110.67,-9.5 105.67,-7.75 105.67,-11.25" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="305.5,-56 237.5,-56 237.5,-37 305.5,-37 305.5,-56" />
+<ns0:text text-anchor="middle" x="271.5" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>RangedChoice</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Sequential.html#pyVHDLModel.Sequential.RangedChoice" ns1:title="RangedChoice" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="444,-37 358,-37 358,-18 444,-18 444,-37" />
+<ns0:text text-anchor="middle" x="401" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">RangedChoice</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>DOMMixin-&gt;RangedChoice</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M305.67,-41.56C319.99,-39.42 337,-36.89 352.61,-34.56" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="353.16,-36.25 357.85,-33.78 352.65,-32.79 353.16,-36.25" />
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>RangedChoice-&gt;RangedChoice</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M381.27,-37.08C371.67,-45.73 378.25,-55 401,-55 420.2,-55 427.88,-48.4 424.04,-41.15" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="425.25,-39.85 420.73,-37.08 422.53,-42.06 425.25,-39.85" />
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>SequentialChoice-&gt;RangedChoice</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M322.16,-16.51C332.16,-17.92 342.65,-19.4 352.58,-20.81" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="352.51,-22.56 357.71,-21.53 353,-19.1 352.51,-22.56" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>

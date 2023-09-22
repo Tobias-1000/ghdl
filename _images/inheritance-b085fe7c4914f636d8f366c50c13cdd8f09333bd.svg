@@ -1,0 +1,134 @@
+<ns0:svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns:ns1="http://www.w3.org/1999/xlink" width="533pt" height="193pt" viewBox="0.00 0.00 533.00 193.00">
+<ns0:g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 189)">
+<ns0:title>inheritancec218f92451</ns0:title>
+
+<ns0:g id="node1" class="node">
+<ns0:title>ConcurrentStatement</ns0:title>
+<ns0:g id="a_node1"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Concurrent.html#pyVHDLModel.Concurrent.ConcurrentStatement" ns1:title="A ``ConcurrentStatement`` is a base-class for all concurrent statements." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="377.5,-37 256.5,-37 256.5,-18 377.5,-18 377.5,-37" />
+<ns0:text text-anchor="middle" x="317" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ConcurrentStatement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="node7" class="node">
+<ns0:title>ProcessStatement</ns0:title>
+<ns0:g id="a_node7"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Concurrent.html#pyVHDLModel.Concurrent.ProcessStatement" ns1:title="ProcessStatement" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="525,-111 420,-111 420,-92 525,-92 525,-111" />
+<ns0:text text-anchor="middle" x="472.5" y="-99" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ProcessStatement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge4" class="edge">
+<ns0:title>ConcurrentStatement-&gt;ProcessStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M358.08,-37.09C366.79,-39.7 375.84,-42.85 384,-46.5 410.12,-58.19 437.66,-76.66 454.7,-88.93" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="453.73,-90.38 458.81,-91.9 455.79,-87.55 453.73,-90.38" />
+</ns0:g>
+
+<ns0:g id="node2" class="node">
+<ns0:title>Statement</ns0:title>
+<ns0:g id="a_node2"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Common.html#pyVHDLModel.Common.Statement" ns1:title="A ``Statement`` is a base-class for all statements." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="214,-37 146,-37 146,-18 214,-18 214,-37" />
+<ns0:text text-anchor="middle" x="180" y="-25" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">Statement</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge1" class="edge">
+<ns0:title>Statement-&gt;ConcurrentStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M214.02,-27.5C225.33,-27.5 238.39,-27.5 251.32,-27.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="251.45,-29.25 256.45,-27.5 251.45,-25.75 251.45,-29.25" />
+</ns0:g>
+
+<ns0:g id="node3" class="node">
+<ns0:title>DOMMixin</ns0:title>
+<ns0:g id="a_node3"><ns0:a ns1:href="../pyGHDL/pyGHDL.dom.html#pyGHDL.dom.DOMMixin" ns1:title="DOMMixin" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="351,-185 283,-185 283,-166 351,-166 351,-185" />
+<ns0:text text-anchor="middle" x="317" y="-173" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DOMMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge3" class="edge">
+<ns0:title>DOMMixin-&gt;ProcessStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M351.24,-168.53C361.94,-165.74 373.69,-162.08 384,-157.5 410.44,-145.76 438.1,-126.75 455.07,-114.18" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="456.19,-115.53 459.15,-111.14 454.09,-112.73 456.19,-115.53" />
+</ns0:g>
+
+<ns0:g id="node4" class="node">
+<ns0:title>DocumentedEntityMixin</ns0:title>
+<ns0:g id="a_node4"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.DocumentedEntityMixin" ns1:title="A ``DocumentedEntityMixin`` is a mixin class for all VHDL entities that can have an associated documentation." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="384,-148 250,-148 250,-129 384,-129 384,-148" />
+<ns0:text text-anchor="middle" x="317" y="-136" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">DocumentedEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge7" class="edge">
+<ns0:title>DocumentedEntityMixin-&gt;ProcessStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M357.53,-128.97C378.75,-123.86 404.99,-117.53 426.94,-112.24" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="427.39,-113.93 431.84,-111.06 426.57,-110.53 427.39,-113.93" />
+</ns0:g>
+
+<ns0:g id="node5" class="node">
+<ns0:title>LabeledEntityMixin</ns0:title>
+<ns0:g id="a_node5"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.LabeledEntityMixin" ns1:title="A ``LabeledEntityMixin`` is a mixin class for all VHDL entities that can have labels." target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="110,-56 0,-56 0,-37 110,-37 110,-56" />
+<ns0:text text-anchor="middle" x="55" y="-44" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">LabeledEntityMixin</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge9" class="edge">
+<ns0:title>LabeledEntityMixin-&gt;Statement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M110.31,-38.11C120.61,-36.52 131.19,-34.89 140.86,-33.39" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="141.15,-35.12 145.83,-32.62 140.62,-31.66 141.15,-35.12" />
+</ns0:g>
+
+<ns0:g id="node6" class="node">
+<ns0:title>ModelEntity</ns0:title>
+<ns0:g id="a_node6"><ns0:a ns1:href="https://vhdl.github.io/pyVHDLModel/pyVHDLModel/pyVHDLModel.Base.html#pyVHDLModel.Base.ModelEntity" ns1:title="``ModelEntity`` is the base-class for all classes in the VHDL language model, except for mixin classes (see multiple" target="_top">
+<ns0:polygon fill="white" stroke="#1e90ff" points="92.5,-19 17.5,-19 17.5,0 92.5,0 92.5,-19" />
+<ns0:text text-anchor="middle" x="55" y="-7" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">ModelEntity</ns0:text>
+</ns0:a>
+</ns0:g>
+</ns0:g>
+
+<ns0:g id="edge8" class="edge">
+<ns0:title>ModelEntity-&gt;Statement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M92.57,-14.85C107.71,-17.07 125.28,-19.64 140.61,-21.88" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="140.51,-23.64 145.72,-22.63 141.02,-20.17 140.51,-23.64" />
+</ns0:g>
+
+<ns0:g id="edge2" class="edge">
+<ns0:title>ProcessStatement-&gt;ProcessStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M448.76,-111.08C437.22,-119.73 445.13,-129 472.5,-129 496.02,-129 505.17,-122.16 499.95,-114.74" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="501.03,-113.34 496.24,-111.08 498.57,-115.84 501.03,-113.34" />
+</ns0:g>
+
+<ns0:g id="node8" class="node">
+<ns0:title>SequentialDeclarations</ns0:title>
+<ns0:polygon fill="white" stroke="#1e90ff" points="382,-111 252,-111 252,-92 382,-92 382,-111" />
+<ns0:text text-anchor="middle" x="317" y="-99" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SequentialDeclarations</ns0:text>
+</ns0:g>
+
+<ns0:g id="edge5" class="edge">
+<ns0:title>SequentialDeclarations-&gt;ProcessStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M382.21,-101.5C392.94,-101.5 404.01,-101.5 414.54,-101.5" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="414.67,-103.25 419.67,-101.5 414.67,-99.75 414.67,-103.25" />
+</ns0:g>
+
+<ns0:g id="node9" class="node">
+<ns0:title>SequentialStatements</ns0:title>
+<ns0:polygon fill="white" stroke="#1e90ff" points="379.5,-74 254.5,-74 254.5,-55 379.5,-55 379.5,-74" />
+<ns0:text text-anchor="middle" x="317" y="-62" font-family="Vera Sans, DejaVu Sans, Liberation Sans, Arial, Helvetica, sans" font-size="10.00">SequentialStatements</ns0:text>
+</ns0:g>
+
+<ns0:g id="edge6" class="edge">
+<ns0:title>SequentialStatements-&gt;ProcessStatement</ns0:title>
+<ns0:path fill="none" stroke="black" stroke-width="0.5" d="M357.53,-74.03C378.75,-79.14 404.99,-85.47 426.94,-90.76" />
+<ns0:polygon fill="black" stroke="black" stroke-width="0.5" points="426.57,-92.47 431.84,-91.94 427.39,-89.07 426.57,-92.47" />
+</ns0:g>
+</ns0:g>
+</ns0:svg>
